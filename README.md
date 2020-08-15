@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You’ll need to have [Node](https://nodejs.org/en/) >= 8.10 on your local development machine
+You’ll need to have [Node.js](https://nodejs.org/en/) version >= 8.10 on your local development machine.
 
 ### Installing
 
@@ -20,7 +20,7 @@ You’ll need to have [Node](https://nodejs.org/en/) >= 8.10 on your local devel
 
 In the project directory, you can run:
 
-### `npm start`
+```npm start```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -36,10 +36,14 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Running the tests
 
-### `npm test`
+```npm test```
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Deployment
+
+Deploy your application with ```npm run build```. That creates a build directory with a production build of your app. Set up your favorite HTTP server so that a visitor to your site is served ```index.html```, and requests to static paths like ```/static/js/main.<hash>.js``` are served with the contents of the ```/static/js/main.<hash>.js``` file.
 
 ## Built With
 
